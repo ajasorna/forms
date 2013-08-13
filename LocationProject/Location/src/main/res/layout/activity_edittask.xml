@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#b1c3ec">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT YOUR TASK"
+            android:id="@+id/textView"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task name"
+            android:id="@+id/textView2"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:textSize="22dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/task_name"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            android:background="#eaece9"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-28dp"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert radius"
+            android:id="@+id/textView3"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="22dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="22dp"
+            android:background="#eaece9"
+            android:layout_marginTop="-28dp"
+            android:layout_marginRight="40dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_gravity="right|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select location from map"
+            android:id="@+id/textView4"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:textSize="22dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location here"
+            android:id="@+id/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="65dp"
+            android:textSize="22dp"/>
+</LinearLayout>
